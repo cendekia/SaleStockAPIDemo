@@ -26,12 +26,6 @@ module.exports = {
       required: true,
       columnName: 'category_id',
       model: 'Category',
-    },
-    subCategoryId: {
-      type: 'string',
-      required: false,
-      columnName: 'sub_category_id',
-      model: 'SubCategory'
     }
   }
 };
