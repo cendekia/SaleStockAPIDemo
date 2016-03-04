@@ -43,10 +43,13 @@ Make tables needed: (i will try to clone from salestock.id)
   * Product Categories
     - product_id
     - category_id
-    - sub_category_id : nullable
 
   * Product Attributes
     - product_id
     - attribute_detail_id
+
+  * Product Sub Categories
+    - product_id
+    - category_detail_id
 
 
