@@ -38,6 +38,7 @@ Make tables needed: (i will try to clone from salestock.id)
     - name
     - price
     - description
+    - image_url
 
   * Product Categories
     - product_id
