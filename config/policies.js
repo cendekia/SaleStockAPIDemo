@@ -48,4 +48,16 @@ module.exports.policies = {
 		// before letting any users feed our rabbits
 		// feed : ['isNiceToAnimals', 'hasRabbitFood']
 	// }
+
+  '/login': ['passport', 'sessionAuth'],
+  '/logout': ['passport', 'sessionAuth'],
+  '/register': ['passport', 'sessionAuth'],
+
+  'auth': {
+    '*': ['passport']
+  },
+
+  'UserController': {
+    '*': ['passport', 'bearerAuth'],
+  }
 };
