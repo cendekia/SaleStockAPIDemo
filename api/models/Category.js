@@ -20,6 +20,10 @@ module.exports = {
       required: true,
       unique: true
     },
+    subcategory: {
+      collection: 'subcategory',
+      via: 'category'
+    }
   }
 };
 
