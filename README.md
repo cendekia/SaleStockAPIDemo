@@ -14,4 +14,38 @@
 
 ---
 
+## TODO:
+
+### Case 1:
+
+Make tables needed: (i will try to clone from salestock.id)
+
+  * Categories table
+    - name
+
+  * Sub Categories table
+    - name
+    - category_id
+
+  * Attributes table
+    - name
+
+  * Attribute Details table
+    - name
+    - attribute_id
+
+  * Products table
+    - name
+    - price
+    - description
+
+  * Product Categories
+    - product_id
+    - category_id
+    - sub_category_id : nullable
+
+  * Product Attributes
+    - product_id
+    - attribute_detail_id
+
 
