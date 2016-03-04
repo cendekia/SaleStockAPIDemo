@@ -57,7 +57,6 @@ module.exports.policies = {
     '*': ['passport']
   },
 
-  'UserController': {
-    '*': ['passport', 'bearerAuth'],
-  }
+  'UserController': { '*': ['passport', 'bearerAuth'] },
+  'CategoryController': { '*': ['passport', 'bearerAuth'] }
 };
