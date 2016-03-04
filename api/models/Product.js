@@ -28,6 +28,16 @@ module.exports = {
       type: 'string',
       required: true,
       columnName: 'image_url'
+    },
+    categories: {
+      collection: 'category',
+      via: 'categoryId',
+      through: 'productcategory'
+    },
+    attributes: {
+      collection: 'attribute',
+      via: 'attributeDetailId',
+      through: 'productattribute'
     }
   }
 };
