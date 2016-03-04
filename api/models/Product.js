@@ -34,6 +34,11 @@ module.exports = {
       via: 'categoryId',
       through: 'productcategory'
     },
+    subCategories: {
+      collection: 'subCategory',
+      via: 'categorySubId',
+      through: 'productsubcategory'
+    },
     attributes: {
       collection: 'attribute',
       via: 'attributeDetailId',
