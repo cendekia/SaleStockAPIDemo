@@ -22,7 +22,6 @@
  * @param {Function} next
  */
 module.exports = function (req, res, next) {
-  console.log(req);
   // Initialize Passport
   passport.initialize()(req, res, function () {
     // Use the built-in sessions
